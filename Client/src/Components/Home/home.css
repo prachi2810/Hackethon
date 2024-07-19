@@ -1,0 +1,417 @@
+.sideImage {
+    height: 100vh;
+    background-image: url('../../Images/sideImage.png');
+    background-repeat: no-repeat;
+    background-size: 30% 100vh;
+    position: relative;
+    top: -30px;
+
+}
+
+.imageClass {
+    position: relative;
+    top: -60px;
+}
+
+.sideDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button1 {
+    padding: 12%;
+    width: 200%;
+    border-radius: 8px;
+    background-color: #3AAFA9;
+    color: white;
+    border: 0;
+
+
+}
+
+.button1:hover {
+    background-color: #2B7A78;
+    color: white;
+}
+
+.title {
+    /* margin-left: 15%; */
+    text-align: center;
+    color: #1a3038;
+    margin: 0;
+    font-family: serif;
+}
+
+.subtitle {
+    /* margin-left: 15%; */
+    width: 70%;
+    text-align: center;
+    color: #1a3038;
+}
+
+.headingHome {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    font-size: larger;
+}
+
+.top-line {
+    border-top: 1px solid black;
+    margin-right: 3%;
+}
+
+.threeStyle {
+    margin-bottom: -20%;
+}
+
+.btnVal {
+    background-color: #3AAFA9;
+    border: 0;
+    border-radius: 50px;
+    padding: 2%;
+    /* margin-top: 5%; */
+    width: 35%;
+}
+
+.btnVal:hover {
+    background-color: #2B7A78;
+    color: white;
+}
+
+.btnVal1 {
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 1%;
+    margin-top: 5%;
+    width: 20%;
+}
+
+.btnVal1:hover {
+    background-color: #17251A;
+    color: white;
+    border: 2px solid white;
+}
+
+.btnVal3 {
+    background-color: #3AAFA9;
+    border: 0;
+    /* margin-top: -100%; */
+    border-radius: 50px;
+    padding: 1%;
+    /* margin-top: -20%; */
+    width: 20%;
+}
+
+.btnVal3-div {
+    margin-top: 25%;
+    margin-bottom: 20%;
+}
+
+.btnVal3:hover {
+    background-color: #2B7A78;
+    color: white;
+}
+
+.subheading {
+    margin-top: 3%;
+    width: 75%;
+}
+
+.template {
+    background-color: #17251A;
+    color: #fff;
+    padding: 5%;
+}
+
+.crousal {
+    margin-top: 10%;
+    width: 100%;
+}
+
+.behindcard {
+    background-color: #3AAFA9 !important;
+}
+
+.behindcard1 {
+    background-color: #FECB22 !important;
+}
+
+.behindcard2 {
+    background-color: #3E89CC !important;
+}
+
+.behindcard3 {
+    background-color: #49cac6 !important;
+}
+
+.overlapcard {
+    position: relative;
+    z-index: 1000;
+    top: -38%;
+    left: -10%;
+}
+
+.overlapcard1 {
+    position: relative;
+    z-index: 1000;
+    top: -40%;
+    right: -10%;
+}
+
+.extraClass {
+    flex-direction: column;
+    height: 210vh;
+    justify-content: space-between;
+}
+
+.card {
+    border-radius: 0 !important;
+    border: 0 !important;
+    width: 80%;
+    height: 65% !important;
+}
+
+.buildHeading {
+    margin-left: 10%;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    /* color: black; */
+    background-color: #17251A;
+}
+
+.dropdownacc {
+    background-color: #17251A;
+    height: 90vh;
+
+    /* margin-bottom: 5%; */
+}
+
+.dropdownheading {
+    color: white;
+}
+
+.accordionClass {
+    background-color: #17251A !important;
+    color: white;
+}
+
+.accordion-button:after {
+    background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23ffffff'><path fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/></svg>") !important;
+}
+
+.accordion {
+    width: 70%;
+}
+
+.crousalImg {
+    width: 50%;
+}
+
+.btnVal2 {
+    background-color: white;
+    border: 0;
+    border-radius: 50px;
+    padding: 2%;
+    margin-top: 5%;
+    width: 30%;
+}
+
+.btnVal2:hover {
+    background-color: #17251A;
+    color: white;
+    border: 2px solid white;
+}
+
+
+#swc {
+    position: relative;
+    margin: 0 5px 0 10px;
+    display: inline-block;
+    height: 50px;
+    padding: 0 15px 0 15px;
+    font-size: 15px;
+    line-height: 48px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 20px 25px;
+    background: #f3f3f3;
+    transition: background 0.3s;
+    color: black;
+    min-width: 120px;
+}
+
+#swc:after {
+    position: absolute;
+    content: "";
+    right: -19px;
+    width: 1px;
+    height: 0px;
+    border-left: 18px solid #f3f3f3;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    transition: border 0.3s;
+}
+
+.tagClass {
+    position: absolute;
+    /* top:-30%; */
+    bottom: 78%;
+    left:22%;
+    z-index: 1000;
+}
+
+/* #swc:hover {
+    background: #000000;
+    color: #ffffff;
+} */
+
+/* #swc:hover:after {
+    border-left-color: #000000;
+    
+} */
+
+
+@media screen and (max-width:600px) {
+    .sideImage {
+        background-image: url('');
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 90vh !important;
+    }
+
+    .sideDiv {
+        height: 50vh;
+    }
+
+    .imageClass {
+        /* top: -50px; */
+        width: 100%;
+    }
+
+    .top-line {
+        border-top: 1px solid black;
+        margin-right: 1%;
+        font-size: smaller;
+        margin-top: -40%;
+
+    }
+
+    .threeCol {
+        font-size: small;
+        font-weight: 900;
+    }
+
+    .heading1 {
+        margin-top: 35%;
+        font-size: large;
+    }
+
+    .btnVal3-div {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 30%;
+        margin-bottom: 5%;
+
+    }
+
+    .btnVal3 {
+        background-color: #3AAFA9;
+        border: 0;
+        border-radius: 20px;
+        padding: 2%;
+        width: 40%;
+
+    }
+
+    .btnVal1 {
+        background-color: white;
+        border: 0;
+        border-radius: 50px;
+        padding: 2%;
+        margin-top: 5%;
+        width: 40%;
+    }
+
+    .card {
+        border-radius: 0 !important;
+        border: 0 !important;
+        width: 80%;
+        height: 60% !important;
+    }
+
+    .template {
+        margin-top: 30%;
+    }
+
+    .crousalImg {
+        width: 100%;
+    }
+
+    .extraClass {
+        /* flex-direction: column; */
+        height: 280vh;
+        /* justify-content: space-between; */
+    }
+
+    .overlapcard {
+        /* position: relative;
+        z-index: 1000; */
+        top: -25%;
+        /* left: -10%; */
+    }
+
+    .overlapcard1 {
+        /* position: relative;
+        z-index: 1000; */
+        top: -25%;
+        /* right: -10%; */
+    }
+
+
+
+    /* .behindcard{
+        width:80%;
+        height:90% !important;
+        
+    }
+    .behindcard2 {
+        width:80%;
+        height:90% !important;
+        top:-50%;
+    }
+    .cardClass{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    
+    }
+    .overlapcard {
+        position: relative;
+        z-index: 1000;
+        width:80%;
+        top: -50%;
+        left: -30%;
+    }
+    
+    .overlapcard1 {
+        position: relative;
+        width: 60%;
+        z-index: 1000;
+        top: -50%;
+        left: 30%;
+    }
+    .cardRow{
+        margin-bottom: 5%;
+    } */
+
+
+
+}

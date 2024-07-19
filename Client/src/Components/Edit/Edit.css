@@ -1,0 +1,360 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.sidenav {
+    position: fixed;
+    left: 0;
+    width: 15%;
+    height: 100vh;
+    overflow: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    background-color: rgba(255, 255, 255, 0.95);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.05);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.sidenav .logo {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.sidenav .pages {
+    height: 100px;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.main-content {
+    position: relative;
+    width: 85%;
+    left: 15%;
+    
+}
+
+.main-content .navbar {
+    padding: 0;
+}
+
+.main-content .navbar .container-fluid {
+    padding: 0;
+}
+
+.main-content #editor {
+    border: 2px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.gjs-pn-views-container, .gjs-pn-views {
+    /* position: relative; */
+    display: none !important;
+}
+
+.gjs-pn-commands {
+    width: 100% !important;
+}
+
+.gjs-cv-canvas {
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.tab-content {
+    display: contents;
+}
+
+#block #blocks .gjs-blocks-c {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.main-content #block #blocks{
+    height: 100%;
+}
+
+#block #blocks .gjs-block {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+#block #blocks .gjs-block-label {
+    display: none;
+}
+
+/* Theming */
+.gjs-one-bg {
+    background-color: #DEF2F1 !important;
+}
+
+.gjs-two-color {
+    color: #2B7A78 !important;
+}
+
+.gjs-three-bg {
+    background-color: rgb(255, 255, 255) !important;
+    color: #fcf6f5ff !important;
+}
+
+.gjs-block, .gjs-one-bg, .gjs-four-color-h{
+   background-color: white !important;
+}
+/* .gjs-blocks-c{ */
+   /* background-color: #F3F7F9 !important; */
+   /* background-color:#DEF2F1 !important;
+}
+
+.gjs-pn-buttons{
+    background-color: #F3F7F9 !important;
+}
+.gjs-four-color,
+.gjs-four-color-h:hover {
+    color: #526983 !important;
+}
+
+.gjs-pn-btn {
+    border: 1px solid #718DAD !important;
+} */
+
+.btn,
+.nav-link,
+.modal-content,
+.form-control {
+    border-radius: 0 !important;
+}
+
+.btn .fa {
+    color: #990011ff !important;
+}
+
+.btn:hover .fa {
+    color: #fcf6f5ff !important;
+}
+
+/** Error **/
+.error .bg-body {
+    min-height: 150px;
+    max-height: 150px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.error .bg-body .title {
+    font-weight: 600;
+}
+
+.error .btn {
+    border-radius: 40px !important;
+    padding: 15px 20px;
+    font-size: 14px;
+    font-weight: 700;
+    min-width: 150px;
+}
+/* Let's highlight canvas boundaries */
+/* #gjs {
+    border: 3px solid #444;
+  } */
+  
+  /* Reset some default styling */
+  .gjs-cv-canvas {
+    position: absolute !important;
+    top: 40px !important;
+    /* top:0; */
+    width: 100% !important;
+    height: 100% !important;
+  }
+.savebtn{
+    background-color: #2B7A78;
+    border: 0;
+    position: absolute;
+    left:85%;
+    bottom: 96%;
+    z-index: 1000;
+    border-radius: 5px;
+    width: 8%;
+    height: 28px !important;
+    color: white;
+}
+/* .savebtn:hover{
+    background-color: ;
+} */
+.profile{
+    position: absolute;
+    top:0.5%;
+    left:95%;
+    bottom: 96%;
+    z-index: 1000;
+}
+.infoText{
+    display: none;
+}
+.spinner{
+    height: 100vh;
+}
+
+.mainBody{
+    margin: 0;
+    padding:0;
+    font-family:monospace;
+    background:black;
+}
+
+.center{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.ring{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border: 50%;
+}
+
+.dropdownEdit {
+    border-radius: 50%;
+    background-color: #3AAFA9;
+    padding: 5px 5px 6px 12px;
+}
+
+.dropdownEdit:hover {
+    background-color: rgba(240, 240, 240);
+}
+
+.mainBody{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff !important;
+}
+.containerSpinner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ring{
+    width: 200px;
+    height: 200px;
+    border: 0px solid #000;
+    border-radius: 50%;
+    position: absolute;
+}
+.ring:nth-child(1){
+    border-bottom-width: 8px;
+    border-color: rgb(11, 141, 134);
+    animation: rotate1 2s linear infinite;
+    -webkit-animation: rotate1 2s linear infinite;
+}
+.ring:nth-child(2){
+    border-right-width: 8px;
+    border-color: rgb(7, 136, 119);
+    animation: rotate2 2s linear infinite;
+    -webkit-animation: rotate2 2s linear infinite;
+}
+.ring:nth-child(3){
+    border-top-width: 8px;
+    border-color: rgb(5, 97, 100);
+    animation: rotate3 2s linear infinite;
+    -webkit-animation: rotate3 2s linear infinite;
+}
+.loading{
+    color: #0a0000;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes rotate1{
+    0%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+}
+}
+@keyframes rotate2{
+    0%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+}
+}
+@keyframes rotate3{
+    0%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+}
+}
+
+@media screen and (max-width:600px){
+    #editor{
+        display: none;
+    }
+    .main-content{
+        display: none;
+    }
+    .sidenav{
+        display: none;
+        flex: none;
+        width: 0% ;
+    }
+    .tab-content{
+        display: none;
+    }
+    .tabs{
+        display: none;
+    }
+    .container-fluid,.navbar-brand{
+        display: none;
+    }
+    .infoText{
+        display: block;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,140 @@
+.buttonValPage{
+    margin-left: 70%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    padding: 2%;
+    border-radius: 8px;
+    
+    background-color:#3AAFA9;
+    border:0;
+    color: white;
+}
+.buttonValPage:hover{
+      
+       background-color:#2B7A78 ;
+}
+
+.searchButton{
+    padding: 2%;
+    border-radius: 8px;
+    color: #ffffff;
+    background-color: #3AAFA9;
+    border: 0;
+}
+
+.titlePage{
+    top: 5%;
+    margin-bottom: 5%;
+    font-family: serif;
+    display: flex;
+    justify-content: center;
+}
+
+.searchbarPage {
+    max-width: 50%;
+}
+
+.headerPage{
+    margin-top: 5%;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: gray;
+}
+.contentPage{
+    margin-top: 1%;
+    background-color: rgb(242, 245, 248);
+    border: 2px black;
+    border-radius: 10px;
+    padding-left: 5%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    
+    color: black;
+}
+
+.namePage{
+    margin-left: 50%;
+}
+.name1Page{
+    margin-right: 80%;
+}
+
+.deleteBut{
+    border: 0;
+    color:rgb(20, 170, 230);
+} 
+
+
+ .mainBody{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ffffff !important;
+}
+.containerSpinner{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ring{
+    width: 200px;
+    height: 200px;
+    border: 0px solid #000;
+    border-radius: 50%;
+    position: absolute;
+}
+.ring:nth-child(1){
+    border-bottom-width: 8px;
+    border-color: rgb(11, 141, 134);
+    animation: rotate1 2s linear infinite;
+    -webkit-animation: rotate1 2s linear infinite;
+}
+.ring:nth-child(2){
+    border-right-width: 8px;
+    border-color: rgb(7, 136, 119);
+    animation: rotate2 2s linear infinite;
+    -webkit-animation: rotate2 2s linear infinite;
+}
+.ring:nth-child(3){
+    border-top-width: 8px;
+    border-color: rgb(5, 97, 100);
+    animation: rotate3 2s linear infinite;
+    -webkit-animation: rotate3 2s linear infinite;
+}
+.loading{
+    color: #0a0000;
+    font-family: 'Courier New', Courier, monospace;
+}
+@keyframes rotate1{
+    0%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+}
+}
+@keyframes rotate2{
+    0%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+}
+}
+@keyframes rotate3{
+    0%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+}
+    100%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+}
+} 
